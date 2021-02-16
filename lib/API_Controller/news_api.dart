@@ -7,7 +7,7 @@ class NewsAPI {
   Future<NewsModel> getNEws() async {
     try {
       http.Response response = await http.get(
-          "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=deda1082244c4975bbebda2889310f06");
+          "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey");
 
       var newsmodel = null;
 
